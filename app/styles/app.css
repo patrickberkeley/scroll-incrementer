@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.l--m-b-800 {
+  margin-bottom: 800px;
+}
+
+.progress-bar {
+  border: 1px solid gray;
+  padding: 1px;
+}
+
+.progress-bar__inner {
+  background-color: steelblue;
+  height: 10px;
+}

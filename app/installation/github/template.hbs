@@ -1,0 +1,17 @@
+{{#progress-section
+  incrementProgress=(action 'incrementProgress' 'createAccount' target=installationController)
+}}
+  Create an account & install Git
+{{/progress-section}}
+
+{{#progress-section
+  incrementProgress=(action 'incrementProgress' 'cloneProject' target=installationController)
+}}
+  Clone and setup Project
+{{/progress-section}}
+
+{{#progress-section
+  incrementProgress=(action 'incrementProgress' 'versioning' target=installationController)
+}}
+  How to use Versioning
+{{/progress-section}}

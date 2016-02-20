@@ -6,6 +6,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('installation', function() {
+    this.route('ubuntu-virtual-box');
+    this.route('github');
+  });
 });
 
 export default Router;
